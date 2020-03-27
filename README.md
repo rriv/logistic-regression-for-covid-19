@@ -16,5 +16,6 @@ L'approche est bayesienne : on considère les 3 paramètres comme des variables 
 Les échantillons des paramètres issus des X derniers pas (actuellement 3000) du MCMC sont utilisés pour appliquer la fonction logistique à un domaine étendu, permettant d'obtenir un nuage de prévisions d'évolution du phénomène.
 
 ## Usage
-python rr-fit-function-logistic.py <N>
-  Si N=0 prise en compte de l'ensemble des observations, sinon prise en compte des N premières
+`python rr-fit-function-logistic.py <N>`
+
+Si N=0 prise en compte de l'ensemble des observations, sinon prise en compte des N premières
