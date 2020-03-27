@@ -2,6 +2,7 @@
 Modélisation naïve de l'épidémie Covid-19 par une fonction logistique
 
 Implémentation en python2 (a priori compatible python3)
+
 Dépendances
   numpy
   pymc2
