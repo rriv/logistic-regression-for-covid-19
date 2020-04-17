@@ -9,7 +9,7 @@ Implémentation en python2 (a priori compatible python3)
 * matplotlib.pyplot
   
 ## Principe
-On cherche à approcher la série temporelle des valeurs cumulées des {décès | cas détectés} par une fonction logistique à 3 paramètres : la pente, de bias (décalage du point d'inflexion par rapport à 0) et l'amplitude (effectif concerné à l'asymptote).
+On cherche à approcher la série temporelle des valeurs cumulées des {décès | cas détectés} par une fonction logistique à 3 paramètres : la pente, le bias (décalage du point d'inflexion par rapport à 0) et l'amplitude (effectif concerné à l'asymptote).
 
 L'approche est bayesienne : on considère les 3 paramètres comme des variables stochastiques, au départ de distribution uniforme (priors). Après application d'un Monte-Calo Markov Chaining (MCMC), on obtient les distributions posterior des paramètres «fittant» les observations.
 
